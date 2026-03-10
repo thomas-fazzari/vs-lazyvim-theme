@@ -1,0 +1,21 @@
+{
+  "name": "vs-lazyvim-theme",
+  "displayName": "VS LazyVim Theme",
+  "description": "Custom version of shubhsharma.lazyvim-theme",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "VS LazyVim Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vs-lazyvim-theme.json"
+      }
+    ]
+  }
+}
